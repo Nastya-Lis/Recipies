@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ShowCurrentRecipeActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        >
+        <TextView
+            android:hint="@string/recipeName"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/nameCurrentRecipeId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/Ingredient"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/ingredientCurrentRecipeId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/timeForCooking"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/timeCurrentRecipeId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/cookingRecipe"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/cookingCurrentRecipeId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/category"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/categoryCurrentRecipeId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/Photography"
+            android:textSize="24dp">
+
+        </TextView>
+        <ImageView
+            android:id="@+id/photoCurrentRecipeId"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            >
+        </ImageView>
+
+    </GridLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView"
+        android:title="@string/searchIcon"
+        ></item>
+    <item
+        android:id="@+id/sort"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        app:showAsAction="ifRoom"
+        android:title="@string/sortIcon"
+        >
+        <menu>
+            <item
+                android:id="@+id/sorting_by_name"
+                android:title="@string/by_name_a_z"/>
+            <item
+                android:id="@+id/sorting_by_category"
+                android:title="@string/by_category"/>
+            <item
+                android:id="@+id/sorting_by_default"
+                android:title="sort by default"></item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/addIcon"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom"
+        android:title="@string/addIcon">
+    </item>
+    <item
+        android:id="@+id/logOutIcon"
+        android:icon="@drawable/exit"
+        app:showAsAction="ifRoom"
+        android:title="Exit">
+    </item>
+</menu>

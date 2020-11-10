@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddRecipeActivity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/recipeName"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/nameRecipeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Ingredient"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/ingredientId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/cookingRecipe"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/cookingRecipeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/timeForCooking"
+                android:textSize="17dp" />
+
+            <TimePicker
+                android:id="@+id/timerPickerId"
+                android:layout_width="243dp"
+                android:layout_height="86dp"
+                android:timePickerMode="spinner"></TimePicker>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/category"
+                android:textSize="17dp" />
+
+            <Spinner
+                android:id="@+id/categorySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+            <GridLayout
+                android:layout_width="384dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/photoRecipeId"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_launcher_background"/>
+
+                <Button
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/setPictureRecipe"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:text="set picture"
+                    >
+                </Button>
+
+            </GridLayout>
+
+            <Button
+                android:id="@+id/nextMain"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:onClick="addNewRecipe"
+                android:text="Add"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

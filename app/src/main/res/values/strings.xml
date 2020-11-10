@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">lab6</string>
+    <string name="Name">Name:</string>
+    <string name="SurName">SurName:</string>
+    <string name="Student">Student:</string>
+    <string name="Listener">Listener:</string>
+    <string name="Age">Age:</string>
+    <string name="Curse">Curse:</string>
+    <string name="University">University:</string>
+    <string name="Mark">Mark:</string>
+    <string name="Organization">Organization:</string>
+    <string name="Email">Email:</string>
+    <string name="Phone">Telephone</string>
+    <string name="SocialNetwork">Social Network:</string>
+    <string name="Photography">Photography:</string>
+    <string name="uniAndOrgan">University:</string>
+    <string name="markHint">Mark:</string>
+    <string name="recipeName">Recipe Name:</string>
+    <string name="Ingredient">Ingredient:</string>
+    <string name="cookingRecipe">Cooking Recipe:</string>
+    <string name="timeForCooking">Time For Cook:</string>
+    <string name="category">Category:</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="searchIcon">Searching</string>
+    <string name="sortIcon">Sort</string>
+    <string name="addIcon">Add</string>
+    <string name="by_name_a_z">sort by name</string>
+    <string name="by_category">sort by category</string>
+</resources>

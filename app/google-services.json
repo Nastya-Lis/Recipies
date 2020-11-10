@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "566929465746",
+    "firebase_url": "https://fir-dbrecipes.firebaseio.com",
+    "project_id": "fir-dbrecipes",
+    "storage_bucket": "fir-dbrecipes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566929465746:android:6730e24f37d79b1580214b",
+        "android_client_info": {
+          "package_name": "com.example.lab6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566929465746-a9g1fat9296fcocq88ji3krgr61eap8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgKlPrHrmX6iIH6PKKJO_PksszC3DeHq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566929465746-a9g1fat9296fcocq88ji3krgr61eap8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
