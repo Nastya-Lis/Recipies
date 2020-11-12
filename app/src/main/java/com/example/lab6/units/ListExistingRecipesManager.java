@@ -24,7 +24,7 @@ public class ListExistingRecipesManager {
     public void removeElementV2(Recipe recipeSend){
     String currentKey = "";
         for (String key:map.keySet()) {
-            recipeSend = map.get(key);
+            if(recipeSend == map.get(key))
             currentKey = key;
         }
        /* Map<String,Recipe> deletedMap = new HashMap<>();

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.RecipeDetailFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        >
+        <TextView
+            android:hint="@string/recipeName"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/nameCurrentRecipeFragmentId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/Ingredient"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/ingredientCurrentRecipeFragmentId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/timeForCooking"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/timeCurrentRecipeFragmentId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/cookingRecipe"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/cookingCurrentRecipeFragmentId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/category"
+            android:textSize="24dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/categoryCurrentRecipeFragmentId"
+            android:textSize="24dp">
+        </TextView>
+
+        <TextView
+            android:hint="@string/Photography"
+            android:textSize="24dp">
+
+        </TextView>
+        <ImageView
+            android:id="@+id/photoCurrentRecipeFragmentId"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            >
+        </ImageView>
+
+    </GridLayout>
+
+</FrameLayout>

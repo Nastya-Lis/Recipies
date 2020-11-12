@@ -8,6 +8,7 @@
 
     >
 
+<!--
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myRecycler"
         android:layout_width="match_parent"
@@ -17,5 +18,23 @@
         >
 
     </androidx.recyclerview.widget.RecyclerView>
+-->
+
+   <FrameLayout
+        android:id="@+id/recipe_list_case"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="match_parent" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray" />
+    <FrameLayout
+        android:id="@+id/recipe_details_case"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:visibility="gone"
+        android:layout_height="match_parent" />
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -9,6 +9,12 @@
         android:title="@string/searchIcon"
         ></item>
     <item
+        android:id="@+id/up"
+        android:icon="@drawable/upbutton"
+        app:showAsAction="ifRoom"
+        android:title="upToList">
+    </item>
+    <item
         android:id="@+id/sort"
         android:icon="@android:drawable/ic_menu_sort_by_size"
         app:showAsAction="ifRoom"

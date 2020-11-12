@@ -1,7 +1,5 @@
 package com.example.lab6.recyclerViewPack;
 
-import android.content.Context;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +13,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.lab6.R;
 import com.example.lab6.units.Recipe;
-import com.example.lab6.units.RecipeForJson;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +20,6 @@ import java.util.List;
 public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView>
 implements Filterable {
 
-    RecipeForJson recipeForJson;
     List<Recipe> recipesList;
     List<Recipe> recipeListCopy;
 
